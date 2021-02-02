@@ -1,31 +1,62 @@
 body {
   color: rgb(26, 25, 25);
   background-color: rgb(230, 236, 238);
-  font-family: Monserrat, Arial, Helvetica, sans-serif
+  font-family: Monserrat, Arial, Helvetica, sans-serif;
 }
+
 .center {
-    margin:auto;
-    text-align:center;
+  margin: auto;
+  text-align: center;
 }
+
 a:link {
-    color: rgb(110, 189, 127);
-  }
-  
-  /* visited link */
-  a:visited {
-    color: rgb(0, 128, 0);
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: rgb(252, 45, 148);
-  }
-  
-  /* selected link */
-  a:active {
-    color: rgb(148, 57, 223);
-  }
-  img.photo {
-	border: 1px solid rgb(46, 45, 45);
-	background-color: rgb(230, 236, 238);
-	padding: 4px;}
+  color: rgb(110, 189, 127);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(0, 128, 0);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(252, 45, 148);
+}
+
+/* selected link */
+a:active {
+  color: rgb(148, 57, 223);
+}
+img.photo {
+  border: 1px solid rgb(46, 45, 45);
+  background-color: rgb(230, 236, 238);
+  padding: 4px;
+  margin: 0 auto;
+}
+.border01 {
+    
+    padding: 15px; 
+    border: 10px solid rgb(139, 128, 128);
+    margin: 0 auto;
+}
+.border02 {
+    padding: 100px; 
+    border: 10px solid rgb(129, 81, 36);
+    margin: 20px auto;
+}
+.border03 {
+    padding: 10px 40px 30px 50px; 
+    border: 10px solid rgb(129, 36, 90);
+    margin: 20px auto;
+}
+/* get rid of bullets */
+.my-list{
+    list-style-type: none;
+}
+.navigatie li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    border: 10px solid rgb(129, 36, 90);
+}
