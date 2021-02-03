@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Loving the learning..</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body class="center">
+  
+  <header>
+    <h2 class="border01">tell me things?</h2>
+    
+    <nav>
+      <h3>
+      <ul class="navigation">
+        <li><a href="index.html">main</a></li>  
+        <li><a href="about.html">about me</a></li>
+        <li><a href="https://www.instagram.com/astakat/">astagram</a></li>
+      </ul> 
+      </h3>
+    </nav>
+  </header>
+
+  <main>
+    <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>name: <input type="text" name="name" /></label>   
+        </p>
+        <p>
+          <label>e-mail: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>telephone: <input type="tel" name="tel" /></label>
+        </p>
+        <p>
+          <label>age: <input type="text" name="text" /></label>
+        </p>
+        <p>
+          <label>date of birth: <input type="date" name="date" /></label>
+        </p>
+        <P>
+          <input type="radio" id="human" name="gender" value="human">
+          <label for="human">human</label><br>
+          <input type="radio" id="alien" name="gender" value="alien">
+          <label for="alien">alien</label><br>
+          <input type="radio" id="animal" name="gender" value="animal">
+          <label for="animal">animal</label>
+        </P>
+        <p>
+          <p>what's your favorite cuisine:</p>
+
+            <div>
+              <input type="checkbox" id="arabic" name="arabic"checked>
+              <label for="arabic">arabic</label>
+            </div>
+
+            <div>
+              <input type="checkbox" id="italian" name="italian">
+              <label for="italian">italian</label>
+            </div>
+
+            <div>
+              <input type="checkbox" id="spanish" name="spanish">
+              <label for="spanish">spanish</label>
+            </div>
+
+            <div>
+              <input type="checkbox" id="french" name="french">
+              <label for="french">french</label>
+            </div>
+        </p>
+
+        <p>
+          <label for="favcolor">select your favorite color shorts:</label>
+          <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+        </p>
+
+        <p>
+          <label>biography: <textarea name="biography"></textarea></label>
+        </p>
+      
+        <p>
+          <input type="file" id="myFile" name="filename">
+          <input type="submit">
+        </p>
+
+        <p>
+          <label for="url">enter an https:// URL for your website:</label>
+
+            <input  type="url" name="url" id="url"
+                    placeholder="https://example.com"
+                    pattern="https://.*" size="30"
+                    required>
+        </p>
+        <p>
+          <button type="reset" value="Reset">reset</button>
+        </p>
+        <p>
+          <button type="submit">send</button>
+        </p>
+      </form>
+  </main>
+
+  <footer class="border03">
+    <address>
+      <a href="mailto:astakat@yahoo.com">send me a message</a>
+    </address>
+  </footer>
+
+
+</body>
+
+</html>
