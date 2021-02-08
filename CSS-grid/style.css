@@ -1,0 +1,78 @@
+body {
+  color: rgb(26, 25, 25);
+  background-color: rgb(230, 236, 238);
+  font-family: Monserrat, Arial, Helvetica, sans-serif;
+  padding: 3px;
+  margin: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  text-indent: 20px;
+  letter-spacing: 1px;
+  line-height: 1.8;
+}
+.grid-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 50px auto 100px 50px;
+  grid-gap: 3px;
+  min-height: 100vmin;
+  border: solid black;
+  grid-template-areas:
+    "h"
+    "m"
+    "w"
+    "f";
+}
+
+.header {
+  background-color: rgb(13, 152, 156);
+  grid-area: h;
+}
+
+.main {
+  background-color: rgb(108, 87, 187);
+  grid-area: m;
+}
+
+.footer {
+  background-color: rgb(207, 148, 207);
+  grid-area: f;
+}
+
+.widget-area {
+  background-color: rgb(119, 187, 87);
+  grid-area: w;
+}
+
+@media screen and (min-width: 320px) {
+  body {
+    background-color: rgb(19, 127, 163);
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-color: rgb(117, 19, 163);
+  }
+  .grid-container {
+    grid-template-columns: 200px auto;
+    grid-template-areas:
+      "h m"
+      "h m"
+      "h w"
+      "h f";
+  }
+}
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: rgb(31, 163, 19);
+  }
+  .grid-container {
+    grid-template-columns: 200px auto 200px;
+    grid-template-areas:
+      "h m w"
+      "h m w"
+      "h m w"
+      "h f w";
+  }
+}
