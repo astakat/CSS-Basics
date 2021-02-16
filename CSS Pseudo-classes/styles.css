@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px;
+  color: black;
+  font-size: 15px;
+}
+
+.nav {
+  background-color: royalblue;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Maar hoe krijg ik nu het gekleurde veld om de tekst groter dan alleen de tekst? */
+
+li {
+  padding: 10px;
+  margin: 10px;
+}
+
+.nav:first-child {
+  margin-left: 0px;
+}
+
+.currentPage {
+  background-color: lightsteelblue;
+}
+
+.seperate-item:hover {
+  background-color: skyblue;
+}
+
+.menu-input:focus {
+  border: 5px solid aquamarine;
+  /* font-size: 30px; */
+}
+
+/* Deel 1 van de opdracht hieronder*/
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 100px;
+}
+
+.first:hover {
+  color: lightblue;
+  font-weight: bold;
+}
+
+.second:active {
+  color: red;
+  font-style: italic;
+}
+
+.third:visited {
+  color: rgb(185, 185, 27);
+}
+
+.input-field:focus {
+  color: green;
+  font-size: 20px;
+}
