@@ -1,0 +1,10 @@
+$lightgreen-header: #c0eea9;
+$line-background-color: #000;
+$basic-background-color: #97d279;
+$standard-padding: 20px;
+
+@mixin text-style {
+  max-width: 700px;
+  text-align: center;
+  padding: $standard-padding;
+}
