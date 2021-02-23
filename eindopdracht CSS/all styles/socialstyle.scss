@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #c3cfe2;
+}
+.social-media-container {
+  margin-top: 50px;
+  width: 100vw;
+  height: 100vh;
+  text-align: right;
+}
+.social-media-blog {
+  background-color: #e17b77;
+}
+
+.social-media-facebook {
+  background-color: #3b5998;
+}
+
+.social-media-twitter {
+  background-color: #00aced;
+}
+
+.social-media-github {
+  background-color: #333;
+}
+
+.social-media-linkedin {
+  background-color: #007bb6;
+}
+
+transition-duration: 500ms;
+transition-property: margin-left;
