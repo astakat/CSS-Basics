@@ -1,0 +1,105 @@
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  background-color: #c3cfe2;
+}
+
+.cat-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 7px;
+}
+.cat-container {
+  border-radius: 10px 10px 10px 10px;
+  background: rgb(48, 47, 47);
+}
+// button {
+//   display: grid;
+//   justify-self: center;
+// }
+.cat-container__image {
+  position: relative;
+}
+
+.cat-container__image img {
+// position: absolute;
+  border-radius: 10px 10px 10px 10px;
+  width: 100%;
+}
+.cat-container__button {
+  // position: absolute;
+  // display: grid;
+  // margin: auto;
+  // box-sizing: border-box;
+  // display:flex
+  margin: 0;
+  text-align: center;
+  // transform: translateX(50%);
+  // transform: translateY(50%);
+  // align-items: center;
+  // justify-content: center
+  // width: 100vw;
+  // height: 100vh;
+  //   border-radius: 10px 10px 10px 10px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  // justify-self: center;
+  // text-align: center;
+}
+// div.cat-container__button button{
+//   margin: 0
+// }
+
+div.container6 {
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.container6 p {
+  margin: 0;
+}
+
+// .cat-container__button:hover {
+//   box-sizing: border-box;
+//   margin: auto;
+//   text-align: center;
+//   width: 100vw;
+//   height: 100vh;
+//   border-radius: 10px 10px 10px 10px;
+//   background: rgb(48, 47, 47);
+// }
+
+.cat-container__image img:hover {
+  opacity: 0;
+  transition-duration: 500ms;
+}
+
+@media screen and (min-width: 768px) {
+  .cat-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cat-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}
+
+// opacity: 0;
+// transition-duration: 500ms;
